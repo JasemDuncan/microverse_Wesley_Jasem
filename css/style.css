@@ -57,8 +57,23 @@ body {
 .prices-wrapper {
     display: flex;
     flex-flow: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 15px;
 }
 
+
+.prices-wrapper a{
+    margin: 15px auto;
+    text-align: center;
+    padding: 10px;
+    color: #000; 
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    width: 8em;
+    background: yellow;
+}
 .title-section p a
 {
     margin: 0 auto;
@@ -69,7 +84,19 @@ body {
     font-weight: bold;
     display: block;
     width: 8em;
+    background: yellow;
 
+}
+
+.price1 h3{
+    background: #ccc;
+    padding: 10px;
+    margin: -20px;
+}
+.price1{
+    border: 2px solid #000;
+    margin: 10px;
+    padding: 20px;
 }
 
 .title-section h1 {
