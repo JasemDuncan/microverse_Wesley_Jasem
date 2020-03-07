@@ -1,0 +1,139 @@
+body {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-flow: row;
+}
+
+.list-menu {
+    list-style-type: none;
+    
+}
+
+.list-menu li{
+    display: inline;
+    padding: 0 25px;
+    font-size: 1.2vw;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feature-item {
+    display: flex;
+    flex-flow: row;
+
+}
+
+.feature-item i{
+    color: orange;
+    padding: 10px;
+    min-width: 100px;
+    margin-right: 25px;
+    text-align: center;
+    
+}
+
+.info-item {
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+}
+
+.info-item p{
+    padding: 0 0 40px 0;
+    margin: 0;
+}
+
+
+.info-item h2{
+    padding: 0 0 5px 0 ;
+    margin: 0;
+}
+
+
+.prices-wrapper {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 15px;
+}
+
+
+.prices-wrapper a{
+    margin: 15px auto;
+    text-align: center;
+    padding: 10px;
+    color: #000; 
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    width: 8em;
+    background: yellow;
+}
+.title-section p a
+{
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    width: 8em;
+    background: yellow;
+
+}
+
+.price1 h3{
+    background: #ccc;
+    padding: 10px;
+    margin: -20px;
+}
+.price1{
+    border: 2px solid #000;
+    margin: 10px;
+    padding: 20px;
+}
+
+.title-section h1 {
+    font-size: 1.5em;
+}
+
+#email-holder {
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+}
+#header{
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.top-bar-left {
+    width: 50%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.top-bar-left img{
+    width: 26vw;
+    padding-left: 2vw;
+}
+
+.top-nav-bar {
+    width: 50%;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    padding-right: 3vw;
+}
